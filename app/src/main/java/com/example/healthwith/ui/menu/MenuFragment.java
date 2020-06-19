@@ -63,21 +63,21 @@ public class MenuFragment extends Fragment {
         });
 
         menuViewModel.getUser().observe(getViewLifecycleOwner(),v->{
-            AverageWaterValue.setText(String.valueOf(v.getWaterAverage()));
+            AverageWaterValue.setText(String.valueOf(v.getWaterAverage()+" mL"));
         });
 
         menuViewModel.getUser().observe(getViewLifecycleOwner(), v-> {
-            averagekCalValue.setText(String.valueOf(v.getkCal()));
+            averagekCalValue.setText(String.valueOf(v.getkCal()+" kCal"));
         });
 
         menuViewModel.getUser().observe(getViewLifecycleOwner(), v-> {
-            userHeight.setText(String.valueOf(v.getHeight()));
+            userHeight.setText(String.valueOf(v.getHeight()+" cm"));
         });
         menuViewModel.getUser().observe(getViewLifecycleOwner(), v-> {
-            userWeight.setText(String.valueOf(v.getWeight()));
+            userWeight.setText(String.valueOf(v.getWeight()+" kg"));
         });
         menuViewModel.getUser().observe(getViewLifecycleOwner(), v-> {
-            userAge.setText(String.valueOf(v.getAge()));
+            userAge.setText(String.valueOf(v.getAge()+" 세"));
         });
         menuViewModel.getUser().observe(getViewLifecycleOwner(), v-> {
             userGender.setText(v.isMale()?"남성":"여성");

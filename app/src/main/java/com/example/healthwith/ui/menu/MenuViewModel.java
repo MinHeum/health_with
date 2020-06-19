@@ -36,4 +36,5 @@ public class MenuViewModel extends AndroidViewModel {
     public void deleteAll() {mRepository.deleteAll();}
     LiveData<User> getUser () {return mUser;}
     public void insertUser(User user) {mUserRepository.insert(user);}
+
 }

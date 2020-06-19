@@ -4,6 +4,7 @@ import android.app.Application;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.AndroidViewModel;
+import androidx.lifecycle.LifecycleOwner;
 import androidx.lifecycle.LiveData;
 
 import com.example.healthwith.db.Event;
@@ -11,6 +12,7 @@ import com.example.healthwith.db.EventRepository;
 import com.example.healthwith.db.User;
 import com.example.healthwith.db.UserRepository;
 
+import java.util.Date;
 import java.util.List;
 
 public class CalendarViewModel extends AndroidViewModel {
@@ -33,4 +35,5 @@ public class CalendarViewModel extends AndroidViewModel {
         mRepository.insert(event);
     }
     public LiveData<User> getUser() {return mUserRepository.getUser();}
+    public LiveData<List<Event>> getmAllEvents() { return mAllEvents;}
 }

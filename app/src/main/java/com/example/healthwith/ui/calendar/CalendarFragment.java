@@ -25,6 +25,7 @@ import com.prolificinteractive.materialcalendarview.CalendarDay;
 import com.prolificinteractive.materialcalendarview.CalendarMode;
 import com.prolificinteractive.materialcalendarview.MaterialCalendarView;
 
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
@@ -147,6 +148,9 @@ public class CalendarFragment extends Fragment {
                 isVisible = false;
             }
         });
+
+        SimpleDateFormat format = new SimpleDateFormat("yyyyMMdd");
+
 
         /*
         FAB 버튼으로부터 나온 Dialog들을 호출하는 함수 세개

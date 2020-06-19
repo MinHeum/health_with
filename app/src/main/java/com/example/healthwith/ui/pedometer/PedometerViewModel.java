@@ -19,5 +19,5 @@ public class PedometerViewModel extends AndroidViewModel {
         mRepository = new EventRepository(application);
     }
 
-    public void insert(Event event) {mRepository.insert(event);}
+    public void insert(Event event) {mRepository.update(event);}
 }
