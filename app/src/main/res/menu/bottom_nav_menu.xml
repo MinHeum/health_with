@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_pedometer"
+        android:icon="@drawable/ic_directions_walk_black_24dp"
+        android:title="@string/title_pedometer" />
+
+    <item
+        android:id="@+id/navigation_drink"
+        android:icon="@drawable/ic_local_drink_black_24dp"
+        android:title="@string/title_drink" />
+
+    <item
+        android:id="@+id/navigation_calendar"
+        android:icon="@drawable/ic_calendar_black_24dp"
+        android:title="@string/title_calendar" />
+
+    <item
+        android:id="@+id/navigation_recommendation"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/title_recommendation" />
+
+    <item
+        android:id="@+id/navigation_menu"
+        android:icon="@drawable/ic_menu_black_24dp"
+        android:title="@string/title_menu" />
+
+
+</menu>

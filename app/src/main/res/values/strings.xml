@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Health With</string>
+    <string name="title_drink">물마시기</string>
+    <string name="title_pedometer">만보기</string>
+    <string name="title_calendar">달력</string>
+    <string name="title_recommendation">팁</string>
+    <string name="title_menu">전체메뉴</string>
+
+    <string name="confirm">확인</string>
+    <string name="cancel">취소</string>
+    <string name="record">기록</string>
+    <string name="minute">분</string>
+
+
+    <string name="intakekCal">섭취한 칼로리: </string>
+    <string name="kCal">kCal</string>
+
+    <string name="consumekCal">소모한 칼로리: </string>
+
+</resources>

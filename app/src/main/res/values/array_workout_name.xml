@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="workout_array_name">
+        <!-- 분류, 이름, 몸무계 비례 계수(MET), 소모 kCal -->
+        <item>걷기</item>
+        <item>달리기</item>
+        <item>사이클링</item>
+        <item>등산</item>
+        <item>수영</item>
+    </string-array>
+</resources>

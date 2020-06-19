@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#274060</color>
+    <color name="colorPrimaryDark">#1B2845</color>
+    <color name="colorAccent">#5899E2 </color>
+    <color name="colorMeal">#c66666</color>
+    <color name="colorWorkout">#c648c6</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#F8F8F8</color>
+
+
+
+</resources>

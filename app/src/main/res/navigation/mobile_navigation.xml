@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_calendar">
+
+    <fragment
+        android:id="@+id/navigation_pedometer"
+        android:name="com.example.healthwith.ui.pedometer.PedometerFragment"
+        android:label="@string/title_pedometer"
+        tools:layout="@layout/fragment_pedometer" />
+
+    <fragment
+        android:id="@+id/navigation_drink"
+        android:name="com.example.healthwith.ui.drink.DrinkFragment"
+        android:label="@string/title_drink"
+        tools:layout="@layout/fragment_drink" />
+
+    <fragment
+        android:id="@+id/navigation_calendar"
+        android:name="com.example.healthwith.ui.calendar.CalendarFragment"
+        android:label="@string/title_calendar"
+        tools:layout="@layout/fragment_calendar" />
+
+    <fragment
+        android:id="@+id/navigation_recommendation"
+        android:name="com.example.healthwith.ui.recommendation.RecommendationFragment"
+        android:label="@string/title_recommendation"
+        tools:layout="@layout/fragment_recommendation" />
+
+    <fragment
+        android:id="@+id/navigation_menu"
+        android:name="com.example.healthwith.ui.menu.MenuFragment"
+        android:label="@string/title_menu"
+        tools:layout="@layout/fragment_menu" />
+</navigation>
